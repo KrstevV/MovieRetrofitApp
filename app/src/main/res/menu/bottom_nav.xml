@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Popular Movies"
+        android:id="@+id/popularMenu"
+        android:icon="@drawable/baseline_people_24"/>
+    <item android:title="Top Rated Movies"
+        android:id="@+id/topratedMenu"
+        android:icon="@drawable/baseline_star_purple500_24"/>
+    <item android:title="Upcoming Movies"
+        android:id="@+id/upcomingMenu"
+        android:icon="@drawable/baseline_live_tv_24"/>
+</menu>

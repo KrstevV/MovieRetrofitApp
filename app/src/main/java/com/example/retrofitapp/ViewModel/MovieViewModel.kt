@@ -14,8 +14,6 @@ class MovieViewModel  : ViewModel() {
        var moviePopularResponse = MutableLiveData<List<MoviesData>>()
        var movieTopRatedResponse = MutableLiveData<List<MoviesData>>()
        var movieUpcomingResponse = MutableLiveData<List<MoviesData>>()
-
-
     fun getPopularMovies () {
             MoviesApiService.getPopularMovies().enqueue(object : Callback<MoviesResponse> {
                 override fun onResponse(

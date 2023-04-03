@@ -12,7 +12,7 @@
     <FrameLayout
         android:id="@+id/frame_layour"
         android:layout_width="match_parent"
-        android:layout_height="650dp" />
+        android:layout_height="645dp" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
